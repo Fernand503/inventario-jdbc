@@ -19,7 +19,7 @@ La clase `Main` es el punto de entrada del programa porque contiene el método `
 
 Su función es coordinar las diferentes operaciones del CRUD y comprobar que el sistema funciona correctamente.
 
-En esta clase se realizan las siguientes operaciones:
+Desde Main se invocan ordenadamente las siguientes operaciones del DAO:
 
 1. Probar la conexión con la base de datos.
 2. Crear la tabla `producto`.
